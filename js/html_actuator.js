@@ -52,7 +52,7 @@ HTMLActuator.prototype.clearContainer = function (container) {
 };
 
 HTMLActuator.prototype.addTile = function (tile) {
-  var text = " 天周秦汉唐宋元明清　　";
+  var text = " 天　　　　　　　";
   var self = this;
   var text2 = function (n) { var r = 0; while (n > 1) r++, n >>= 1; return r; }
 
